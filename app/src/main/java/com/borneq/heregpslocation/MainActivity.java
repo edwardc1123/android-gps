@@ -66,10 +66,10 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
 		textCounter = (TextView) findViewById(R.id.textView2);
 		textView = (TextView) findViewById(R.id.textView1);
 
-		checkBox.setOnClickListener(this);
-		radio0.setOnClickListener(this);
-		radio1.setOnClickListener(this);
-		checkBoxRefresh.setOnClickListener(this);
+		//checkBox.setOnClickListener(this);
+		//radio0.setOnClickListener(this);
+		//radio1.setOnClickListener(this);
+		//checkBoxRefresh.setOnClickListener(this);
 
 		updateThread.start();
 	}
